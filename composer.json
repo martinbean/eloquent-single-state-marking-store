@@ -1,0 +1,36 @@
+{
+    "name": "martinbean/eloquent-single-state-marking-store",
+    "description": "An Eloquent-backed, single state marking store for Symfony Workflow.",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "symfony",
+        "workflow"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Bean",
+            "email": "martin@martinbean.co.uk",
+            "homepage": "http://martinbean.co.uk"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/martinbean/eloquent-single-state-marking-store/issues",
+        "source": "https://github.com/martinbean/eloquent-single-state-marking-store"
+    },
+    "require": {
+        "illuminate/database": ">=4.0",
+        "symfony/workflow": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MartinBean\\SymfonyWorkflow\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
